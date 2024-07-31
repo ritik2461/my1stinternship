@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(7, 7, 34);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: lavender;
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.4rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+
+}
+
+.firstsection>div {
+    width: 38%;
+
+}
+
+.leftsection {
+    font-size: 3rem;
+
+}
+.leftsection .btn{
+  padding: 12px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 30px 0;
+
+}
+
+.p {
+    color: rgb(142, 73, 207);
+}
+
+#element {
+    color: rgb(142, 73, 207);
+}
+.secondsection{
+    max-width: 88vw;
+    margin: auto;
+
+}
+.secondsection  p{
+    line-height: 2;
+}
+.secondsection ul li{
+    line-height: 2;
+}
+.secondsection h2{
+    margin: 19px 0;
+
+}
+.skills .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    margin-top: 20px;
+  }
+  
+  .skills .content .col-left {
+    position: relative;
+    width: 46%;
+  }
+  
+  .skills .content .col-left .content-title {
+    margin-bottom: 20px;
+  }
+  
+  .skills .content .col-right {
+    position: relative;
+    width: 46%;
+  }
+  
+  .skills .content .col-right .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  
+  .skills .content .col-right .bar .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .skills .content .col-right .bar .info span {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .skills .content .col-right .bar .line {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: #ccc;
+    border-radius: 2px;
+  }
+  
+  .skills .content .col-right .bar .line:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+  }
+  
+  .skills .content .col-right .bar .html:before {
+    width: 95%;
+    background: #e45126;
+  }
+  
+  .skills .content .col-right .bar .css:before {
+    width: 75%;
+    background: #0c73b8;
+  }
+  
+  .skills .content .col-right .bar .javascript:before {
+    width: 55%;
+    background: #11ff00;
+  }
+  
+  .skills .content .col-right .bar .SQL:before {
+    width: 60%;
+    background: #30dd6d;
+
+  }
+  .skills .content .col-right .bar .DigitalMarketing:before {
+    width: 80%;
+    background: #dcf005;
+
+  }
+  footer{
+    background-color: #0e0e1a;
+    height: 150px;
+
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  
+  
